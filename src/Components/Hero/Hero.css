@@ -1,0 +1,87 @@
+:root {
+    /* Main Colors */
+    --sage-green: #A7C957;   /* Soft, modern green */
+    --light-brown: #D2B48C;  /* Earthy and neutral */
+    --off-white: #FAF3E0;    /* Clean and minimal */
+
+    /* Accent Colors */
+    --warm-yellow: #FFC107;  /* Warmth for buttons and highlights */
+    --rust-orange: #D95D39;  /* Vintage, farm-inspired touch */
+
+    /* Text Colors */
+    --text-dark: #4A4A4A;    /* Dark gray for readability */
+    --text-light: #FFFFFF;   /* White for contrast on dark backgrounds */
+
+}
+
+*{
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    height: 60vh;
+    background: linear-gradient(180deg, var(--warm-yellow) , white 65%);
+}
+
+/* Left Section */
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.hero-left h2 {
+    color: var(--text-dark);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hero-left p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--text-dark);
+    font-size: 35px;
+    font-weight: 500;
+}
+
+/* Hand Icon and "New" text */
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Latest Collection Button */
+.hero-latest-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 20rem;
+    height: 75px;
+    border-radius: 70px;
+    margin-top: 2rem;
+    background-color: var(--rust-orange);
+    color: var(--text-light);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-latest-button:hover {
+    background-color: #b94626; /* Darker rust-orange on hover */
+}
+
+/* Right Section */
+.hero-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
