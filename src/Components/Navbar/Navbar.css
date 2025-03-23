@@ -1,0 +1,112 @@
+:root {
+    /* Main Colors */
+    --sage-green: #A7C957;   /* Soft, modern green */
+    --light-brown: #D2B48C;  /* Earthy and neutral */
+    --off-white: #FAF3E0;    /* Clean and minimal */
+
+    /* Accent Colors */
+    --warm-yellow: #FFC107;  /* Warmth for buttons and highlights */
+    --rust-orange: #D95D39;  /* Vintage, farm-inspired touch */
+
+    /* Text Colors */
+    --text-dark: #4A4A4A;    /* Dark gray for readability */
+    --text-light: #FFFFFF;   /* White for contrast on dark backgrounds */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 2px 3px 2px rgb(0,0 , 0);
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.nav-logo img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.nav-logo p{
+    color: var(--text-dark);
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px var(--light-brown);
+    font: 'Lobster',sans-serif;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+    color: var(--text-dark);
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px var(--light-brown);
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 0.75rem;
+    background: var(--rust-orange);
+}
+
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-login-cart img{
+    height: 3rem;
+    width: 4rem;
+}
+
+.nav-login-cart button{
+    width: 8rem;
+    height: 4rem;
+    outline: none;
+    border: 1px solid var(--off-white);
+    border-radius: 4.2rem;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-login-cart button:active{
+    background: var(--light-brown);
+    transform: scale(1.05);
+}
+
+.nav-cart-count
+{
+    display: flex;
+    width: 22px;
+    height: 22px;
+    justify-content: center;
+    align-content: center;
+    margin-top: -1.8rem;
+    margin-left: -3.4rem;
+    border-radius: 50%;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+}
