@@ -1,0 +1,97 @@
+:root {
+    /* Main Colors */
+    --sage-green: #A7C957;   /* Soft, modern green */
+    --light-brown: #D2B48C;  /* Earthy and neutral */
+    --off-white: #FAF3E0;    /* Clean and minimal */
+
+    /* Accent Colors */
+    --warm-yellow: #FFC107;  /* Warmth for buttons and highlights */
+    --rust-orange: #D95D39;  /* Vintage, farm-inspired touch */
+
+    /* Text Colors */
+    --text-dark: #4A4A4A;    /* Dark gray for readability */
+    --text-light: #FFFFFF;   /* White for contrast on dark backgrounds */
+
+}
+
+.item {
+    position: relative;
+    width: 80%;
+    height: 25rem;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.item img {
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Overlay Effect */
+.item:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.item:hover .item-overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+/* Hover Overlay */
+.item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+.item p {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+.item-prices {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.item-price-new {
+    color: #ff5733;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.item-old-price {
+    color: #aaa;
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+/* Optional: Add hover effect on price */
+.item-price-new:hover {
+    color: #e15b28;
+}
+
+.item-price-old:hover {
+    color: #555;
+}

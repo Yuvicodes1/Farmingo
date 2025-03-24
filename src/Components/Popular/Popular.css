@@ -1,0 +1,41 @@
+:root {
+    /* Main Colors */
+    --sage-green: #A7C957;   /* Soft, modern green */
+    --light-brown: #D2B48C;  /* Earthy and neutral */
+    --off-white: #FAF3E0;    /* Clean and minimal */
+
+    /* Accent Colors */
+    --warm-yellow: #FFC107;  /* Warmth for buttons and highlights */
+    --rust-orange: #D95D39;  /* Vintage, farm-inspired touch */
+
+    /* Text Colors */
+    --text-dark: #4A4A4A;    /* Dark gray for readability */
+    --text-light: #FFFFFF;   /* White for contrast on dark backgrounds */
+
+}
+
+.popular{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+        gap: 0.75rem;
+        background: linear-gradient(180deg, var(--warm-yellow) , white 65%);;
+}
+
+.popular h1{
+    margin-top: 1rem;
+    color:var(--text-dark);
+    font-size: 3rem;
+}
+.popular hr{
+    width: 12rem;
+    height: 6px;
+    border-radius: 10px;
+    background: var(--light-brown);
+}
+
+.popular-items{
+    margin-top: 50px;
+    display: flex;
+}
