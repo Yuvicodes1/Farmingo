@@ -16,8 +16,11 @@
 .navbar{
     display: flex;
     justify-content: space-around;
-    padding: 16px;
-    box-shadow: 0 2px 3px 2px rgb(0,0 , 0);
+    padding: 1rem;
+    background:linear-gradient(0deg,var(--off-white),var(--light-brown));
+    z-index: 3;
+    position: sticky;
+    top: 0;
 }
 
 .nav-logo{
@@ -36,7 +39,7 @@
     color: var(--text-dark);
     font-size: 2rem;
     font-weight: 600;
-    text-shadow: 2px 2px 4px var(--light-brown);
+    text-shadow: 2px 2px 4px var(--warm-yellow);
     font: 'Lobster',sans-serif;
 }
 
@@ -57,7 +60,7 @@
     justify-content: center;
     gap: 3px;
     cursor: pointer;
-    text-shadow: 2px 2px 4px var(--light-brown);
+    text-shadow: 2px 2px 4px var(--warm-yellow);
 }
 
 .nav-menu hr{
@@ -83,16 +86,16 @@
     width: 8rem;
     height: 4rem;
     outline: none;
-    border: 1px solid var(--off-white);
+    border: 1px solid var(--rust-orange);
     border-radius: 4.2rem;
     font-weight: 500;
-    background: white;
+    background: var(--off-white);
     cursor: pointer;
-    transition: all 0.5s ease-in-out;
+    transition: all 0   .5s ease-in-out;
 }
 
 .nav-login-cart button:active{
-    background: var(--light-brown);
+    background: var(--rust-orange);
     transform: scale(1.05);
 }
 

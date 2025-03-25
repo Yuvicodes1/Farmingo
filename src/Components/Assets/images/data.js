@@ -26,14 +26,14 @@ let data_product=[
     },
     {
         id:3,
-        name:'Sun-Dried Mango Pickle (Achaar) 500gms',
+        name:'Sun-Dried Mango Pickle 500g',
         image:p3_image,
         new_price: 75.00,
         old_price:119.99,
     },
     {
         id:4,
-        name:'SaptamVeda Cultivated Moringa Powder 150g',
+        name:'SaptamVeda Moringa Powder 150g',
         image:p4_image,
         new_price: 300.00,
         old_price:310.00,

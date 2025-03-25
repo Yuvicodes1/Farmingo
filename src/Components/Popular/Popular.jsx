@@ -6,7 +6,7 @@ import Item from '../Items/Item'
 const Popular = () => {
   return (
     <div className='popular'>
-        <h1>Freshies !!</h1>
+        <h1>Fresh Combos !!</h1>
         <hr />
         <div className="popular-items">
             {fresh.map((items,i)=>{

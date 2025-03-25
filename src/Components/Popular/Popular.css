@@ -20,7 +20,7 @@
         flex-direction: column;
         height: 90vh;
         gap: 0.75rem;
-        background: linear-gradient(180deg, var(--warm-yellow) , white 65%);;
+        background: linear-gradient(180deg, var(--sage-green) , white 65%);
 }
 
 .popular h1{
@@ -28,11 +28,12 @@
     color:var(--text-dark);
     font-size: 3rem;
 }
+
 .popular hr{
-    width: 12rem;
-    height: 6px;
+    width: 50rem;
+    height: 3px;
     border-radius: 10px;
-    background: var(--light-brown);
+    background: var(--warm-yellow);
 }
 
 .popular-items{

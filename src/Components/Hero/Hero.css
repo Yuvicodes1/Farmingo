@@ -19,11 +19,12 @@
 }
 
 .hero {
-    height: 100vh;
-    background: linear-gradient(180deg, var(--warm-yellow) , white 65%);
+    height: 115vh;
+    background: linear-gradient(180deg, var(--sage-green) , var(--off-white) 65%);
 }
 
 .hero-top{
+    padding: 2.5rem;
     display: flex;   
     gap: 2rem;
 }
@@ -35,51 +36,50 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
-    padding-left: 180px;
+    gap: 1.1rem;
+    padding-left: 11rem;
     line-height: 1.1;
 }
 
 .hero-left h2 {
     color: var(--text-dark);
-    font-size: 36px;
+    font-size: 3rem;
     font-weight: 600;
 }
 
 .hero-left p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--text-dark);
-    font-size: 35px;
+    font-size: 3rem;
     font-weight: 500;
 }
 
-/* Hand Icon and "New" text */
 .hero-hand-icon {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 2.2rem;
 }
 
-/* Latest Collection Button */
+
 .hero-latest-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
     width: 20rem;
-    height: 75px;
-    border-radius: 70px;
+    height: 5rem;
+    border-radius: 3rem;
     margin-top: 2rem;
     background-color: var(--rust-orange);
     color: var(--text-light);
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .hero-latest-button:hover {
-    background-color: #b94626; /* Darker rust-orange on hover */
+    background-color:#f3592f; /* Darker rust-orange on hover */
 }
 
 /* Right Section */
@@ -88,39 +88,39 @@
     flex: 1;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 0.75rem;
 }
 
 .bottom{
     width: 100%;
+    background-color: var(--off-white);
+    padding-bottom: 2rem;
 }
 
-/* Styling for the Carousel Section */
 .hero-carousel-section {
-    background: white;
-    padding: 20px;
+    background-color: var(--off-white);
+    padding: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .hero-carousel-section h2 {
     font-size: 2.5rem;
     text-align: center;
     color:var(--text-dark);
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
 }
 
 .hero-carousel {
     background-image: url('/src/Components/Assets/images/secttion1.jpeg');
-    background-size: cover; 
+    background-size: contain; 
     background-position: center; 
     display: flex;
     justify-content: center;
-    padding: 1.75rem;
+    padding: 2.75rem;
     border-radius: 1rem;
 
     position: relative;
-    overflow: hidden;
 }
 
 .hero-carousel::before {
@@ -130,14 +130,18 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255, 255, 255, 0.2); 
-    backdrop-filter: blur(10px); 
+    background: rgba(184, 113, 113, 0.2); 
+    backdrop-filter: blur(8px); 
     z-index: 1;
 }
 
 .hero-carousel > * {
-    position: relative; /* Ensures that your content stays above the blurred overlay */
+    position: relative;
     z-index: 2;
+}
+
+.slick-dots li.slick-active button:before { 
+    transform: scale(1.3);
 }
 
 
