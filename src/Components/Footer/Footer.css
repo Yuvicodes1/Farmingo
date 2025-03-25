@@ -1,0 +1,89 @@
+:root {
+    /* Main Colors */
+    --sage-green: #A7C957;   /* Soft, modern green */
+    --light-brown: #D2B48C;  /* Earthy and neutral */
+    --off-white: #FAF3E0;    /* Clean and minimal */
+
+    /* Accent Colors */
+    --warm-yellow: #FFC107;  /* Warmth for buttons and highlights */
+    --rust-orange: #D95D39;  /* Vintage, farm-inspired touch */
+
+    /* Text Colors */
+    --text-dark: #4A4A4A;    /* Dark gray for readability */
+    --text-light: #FFFFFF;   /* White for contrast on dark backgrounds */
+}
+
+.footer{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background: linear-gradient(180deg,var(--off-white),var(--light-brown)70%);
+}
+
+.footer-logo{
+    display: flex;
+    align-self: center;
+    gap: 1.5rem;
+}
+
+.footer-logo img {
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.footer-logo p{
+    color: var(--text-dark);
+    font-size: 3rem;
+    font-weight: 750;
+}
+
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    color: var(--text-dark);
+    font-size: 1.1rem;
+}
+
+.footer-links li{
+    cursor: pointer;
+}
+
+.footer-social-icons{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-icons-container{
+    padding: 0.75rem;
+    padding-top: 0.5rem;
+    background: var(--off-white);
+    border: 1px solid var(--warm-yellow);
+    border-radius: 1rem;
+}
+
+.footer-icons-container img{
+    height: 4rem;
+    width: auto;
+}
+
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.footer-copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 4px;
+    background: var(--warm-yellow);
+}

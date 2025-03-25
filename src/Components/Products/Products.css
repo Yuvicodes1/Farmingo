@@ -54,4 +54,26 @@
     border-radius: 50%;
 }
 
+.butt{
+    padding-bottom: 3rem;
+}
 
+.butt button{
+    width: 18rem;
+    height: 4rem;
+    border-radius: 30px;
+    background-color: var(--rust-orange);
+    border: none;
+    color: var(--text-light);
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.butt button:hover{
+    background-color: #ff5527;
+    transform: scale(1.03);
+    border: 2px solid var(--warm-yellow);
+}
