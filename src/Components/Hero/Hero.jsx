@@ -12,7 +12,7 @@ const Hero = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 7,  // Show 5 products at a time
+        slidesToShow: 7 ,  // Show 5 products at a time
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
@@ -37,8 +37,7 @@ const Hero = () => {
                     </div>
                     <p>Directly from the Farms!</p>
                     <div className="hero-latest-button">
-                        <div>Explore Shop</div>
-                        <p><strong>&#x21e8;</strong></p>
+                        <div>About Us</div>
                     </div>
                 </div>
                 <div className="hero-right">
