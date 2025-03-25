@@ -36,6 +36,7 @@
 /* Overlay Effect */
 .item:hover {
     transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 .item:hover .item-overlay {

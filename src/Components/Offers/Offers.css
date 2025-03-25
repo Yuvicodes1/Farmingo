@@ -1,0 +1,80 @@
+:root {
+    /* Main Colors */
+    --sage-green: #A7C957;   /* Soft, modern green */
+    --light-brown: #D2B48C;  /* Earthy and neutral */
+    --off-white: #FAF3E0;    /* Clean and minimal */
+
+    /* Accent Colors */
+    --warm-yellow: #FFC107;  /* Warmth for buttons and highlights */
+    --rust-orange: #D95D39;  /* Vintage, farm-inspired touch */
+
+    /* Text Colors */
+    --text-dark: #4A4A4A;    /* Dark gray for readability */
+    --text-light: #FFFFFF;   /* White for contrast on dark backgrounds */
+
+}
+
+.offers{
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    gap: 2rem;
+    margin: auto;
+    padding: 0 8rem;
+    margin-bottom: 10rem;
+    background: linear-gradient(180deg,var(--sage-green) 40%,var(--off-white));
+    border-radius: 2rem;
+}
+
+.offers-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offers-right h1{
+    color: var(--text-dark);
+    font-size: 3rem;
+    font-weight: 650;
+}
+
+.offers-right p{
+    color: var(--text-dark);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.offers-right button{
+    width: 18rem;
+    height: 4rem;
+    border-radius: 30px;
+    background-color: var(--rust-orange);
+    border: none;
+    color: var(--text-light);
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.offers-right button:hover{
+    background-color: #ff5527;
+}
+
+.offers-left{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.offers-left img{
+    width:  40rem;
+    height: 30rem;
+    border-radius: 20px;
+    margin: 2rem;
+    object-fit: cover;
+}
