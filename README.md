@@ -27,8 +27,7 @@ Our platform is built for **trust**. You can **create an account, track your ord
 - **JavaScript (ES6+)** – Enhancing interactivity for a smooth user experience.  
 - **React.js** – A fast, efficient, and modern UI framework.  
 
-### **Backend:**  
-- **Node.js & Express.js** – Powering the backend for seamless performance.  
+### **Backend:**   
 - **MySQL** – Keeping track of products, users, and orders efficiently.  
 
 ---
