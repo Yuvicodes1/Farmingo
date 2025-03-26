@@ -1,9 +1,9 @@
-# 🌱 Farmin-go! - E-commerce Platform for Agricultural Products 🚜
+# 🌱 Farmin-Go! - E-commerce Platform for Agricultural Products 🚜
 
 ## Overview  
 Welcome to **Farmin-go!**, your go-to online marketplace for **farm-fresh, organic products**. We’re all about connecting farmers directly with consumers, ensuring you get the **freshest produce** while supporting **local growers**. No middlemen—just **quality, transparency, and fair prices** for both farmers and buyers.
 
-Shopping on **Farmin-go!** is simple and hassle-free. Whether you’re looking for **fresh vegetables, dairy, grains, or other farm goodies**, our **user-friendly interface** makes it easy to browse, search, and shop. You can check out **detailed product information**, learn about the **farms your food comes from**, and even see certifications like **organic or non-GMO**.
+Shopping on **Farmin-go!** is simple and hassle-free. Whether you’re looking for **fresh vegetables, dairy, grains, or other farm goodies**, our **user-friendly interface** makes it easy to browse, search, and shop.
 
 Our platform is built for **trust**. You can **create an account, track your orders**, and enjoy a **seamless checkout process** with multiple **secure payment options**. Plus, with a **responsive and beautifully designed interface**, **Farmin-go!** makes online grocery shopping feel as natural as a trip to the local farmers’ market.
 
