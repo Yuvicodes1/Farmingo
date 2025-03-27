@@ -1,6 +1,6 @@
 :root {
     /* Main Colors */
-    --sage-green: #A7C957;   /* Soft, modern green */
+    --sage-green: #355E3B;   /* Soft, modern green */
     --light-brown: #D2B48C;  /* Earthy and neutral */
     --off-white: #FAF3E0;    /* Clean and minimal */
 
@@ -33,7 +33,7 @@
 .form {
     display: flex;
     flex-direction: column;
-    background: #4b7a34b2;
+    background: #284d16b2;
     padding: 1.5rem;
     border-radius: 10px;
     width: 40rem;
@@ -51,7 +51,7 @@
     line-height: 1.5rem;
     font-size: 1rem;
     margin-top: 1rem;
-    color:var(--text-light);
+    color:var(--text-dark);
   }
   
   .form div {

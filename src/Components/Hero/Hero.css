@@ -20,7 +20,7 @@
 
 .hero {
     height: 115vh;
-    background: linear-gradient(180deg, var(--sage-green) , var(--off-white) 65%);
+    background: linear-gradient(180deg, var(--sage-green), var(--off-white)60%);
 }
 
 .hero-top{

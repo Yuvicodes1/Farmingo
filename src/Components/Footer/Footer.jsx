@@ -2,10 +2,10 @@ import React from 'react'
 import './Footer.css'
 import footer_logo from '../Assets/images/logo1.png'
 import insta from '../Assets/images/instagram.png'
-import pinterest from '../Assets/images/pinterest.jpg'
+import pinterest from '../Assets/images/pinterest.png'  
 import github from '../Assets/images/github.png'
 
-const Foooter = () => {
+const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-logo">
@@ -31,10 +31,10 @@ const Foooter = () => {
         </div> 
         <div className="footer-copyright">
             <hr />
-            <p>Copyright @ Yathaartha and Kopal 2025 - All Rights Reserved</p>
+            <p>Copyright @ Yathaartha and Kopal  2025 - All Rights Reserved</p>
         </div>
     </div>
   )
 }
 
-export default Foooter
+export default Footer
