@@ -1,7 +1,7 @@
 :root {
     /* Main Colors */
     --sage-green: #A7C957;   /* Soft, modern green */
-    --light-brown: #D2B48C;  /* Earthy and neutral */
+    --light-brown: #c58f49;  /* Earthy and neutral */
     --off-white: #FAF3E0;    /* Clean and minimal */
 
     /* Accent Colors */
@@ -14,7 +14,7 @@
 }
 
 .footer{
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,19 +54,18 @@
 
 .footer-social-icons{
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .footer-icons-container{
-    padding: 0.75rem;
-    padding-top: 0.5rem;
+    padding: 1rem;
     background: var(--off-white);
     border: 1px solid var(--warm-yellow);
     border-radius: 1rem;
 }
 
 .footer-icons-container img{
-    height: 4rem;
+    height: 2rem;
     width: auto;
 }
 
