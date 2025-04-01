@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-around;
     padding: 1rem;
-    background:linear-gradient(0deg,var(--off-white),var(--light-brown));
+    background:linear-gradient(180deg,var(--light-brown)100%,var(--off-white));
     z-index: 3;
     position: sticky;
     top: 0;
@@ -64,6 +64,7 @@
     cursor: pointer;
     text-shadow: 2px 2px 4px var(--warm-yellow);
 }
+
 
 .nav-menu hr{
     border: none;

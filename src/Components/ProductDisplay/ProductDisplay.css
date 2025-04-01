@@ -1,0 +1,116 @@
+:root {
+    /* Main Colors */
+    --sage-green: #355E3B;   /* Soft, modern green */
+    --light-brown: #D2B48C;  /* Earthy and neutral */
+    --off-white: #FAF3E0;    /* Clean and minimal */
+
+    /* Accent Colors */
+    --warm-yellow: #FFC107;  /* Warmth for buttons and highlights */
+    --rust-orange: #D95D39;  /* Vintage, farm-inspired touch */
+
+    /* Text Colors */
+    --text-dark: #4A4A4A;    /* Dark gray for readability */
+    --text-light: #FFFFFF;   /* White for contrast on dark backgrounds */
+}
+
+.productdisplay{
+    display: flex;
+    margin : 4rem 6rem;
+}
+
+.productdisplay-left
+{
+    display: flex;
+    gap: 1rem;
+}
+
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.productdisplay-img-list img{
+    height: 10rem;
+}
+
+
+.productdisplay-main-img{
+    width: 32rem;
+    height: 40rem;
+    object-fit: contain;
+}
+
+.productdisplay-right{
+    margin: 0 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right h1{
+    color: var(--text-dark) ;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.productdisplay-right-star{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+    color: var(--warm-yellow);
+    font-size: 1rem;
+}
+
+.productdisplay-right-prices{
+    display: flex;
+    margin: 2rem 0;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.productdisplay-right-priceold{
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.productdisplay-right-pricenew{
+    color: var(--rust-orange);
+    cursor: pointer;
+}
+
+.productdisplay-right-pricenew:hover{
+    color: #ff4917;
+}
+
+.productdisplay-right button{
+    padding: 1.2rem 2.5rem;
+    width: 15rem;
+    font-size: 1rem;
+    font-weight: 650;
+    color: var(--text-light);
+    background-color: var(--rust-orange);
+    outline: none;
+    border: none;
+    margin: 3rem 0;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: all 0.2s ease;
+}
+
+.productdisplay-right button:hover{
+    transform: scale(1.02);
+    box-shadow:2px 2px 5px #ff49177a;
+}
+
+.productdisplay-right button:active{
+    background-color: #ff4917;
+}
+
+.product-display-right-description{
+    font-size: 1.35rem;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}

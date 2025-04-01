@@ -15,10 +15,10 @@ export const Navbar = () => {
         <p>Farmin-GO</p>
       </div>
       <ul className="nav-menu">
-        <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:'none'}} to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("allproducts")}}><Link style={{textDecoration:'none'}} to='/allproducts'>All Products</Link>{menu==="allproducts"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("bests")}}><Link style={{textDecoration:'none'}} to='/bests'>Best Sellers</Link>{menu==="bests"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("deals_today")}}><Link style={{textDecoration:'none'}} to='/deals_today'>Today's Deals</Link>{menu==="deals_today"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:'none', color:'#4A4A4A'}} to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("allproducts")}}><Link style={{textDecoration:'none', color:'#4A4A4A'}} to='/allproducts'>All Products</Link>{menu==="allproducts"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("bests")}}><Link style={{textDecoration:'none', color:'#4A4A4A'}} to='/bests'>Best Sellers</Link>{menu==="bests"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("deals_today")}}><Link style={{textDecoration:'none', color:'#4A4A4A'}} to='/deals_today'>Today's Deals</Link>{menu==="deals_today"?<hr/>:<></>}</li>
       </ul>
       <div className="nav-login-cart">
         <Link to={'Login'}><button>Login / Sign-UP</button></Link>

@@ -12,7 +12,7 @@ const Hero = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 7 ,  // Show 5 products at a time
+        slidesToShow: 5 ,  
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
