@@ -22,6 +22,11 @@ import p21image from './images/categories/skin_care.jpg'
 import p22image from './images/Popular Products/rice.jpg'
 import p23image from './images/Popular Products/pure ketchup.jpg'
 import p24image from './images/products/redchili.png'
+import p25image from './images/products/fruit_basket.jpeg'
+import p26image from './images/products/veggie_basket.jpg'
+import p27image from './images/products/eggs.jpeg'
+import p28image from './images/products/dairy_combo.jpeg'
+import p29image from './images/Popular Products/mango_pickle.jpg'
 
 
 
@@ -265,7 +270,57 @@ let all_products = [
         category: "deals_today",
         ratings: 63,
         description: "Sun-dried whole red chilies with intense heat and flavor for authentic Indian cooking."
-    }
+    },
+    {
+        id: 25,
+        name:'Veggie Basket Combo 5kgs',
+        image:p25image,
+        new_price: 350,
+        old_price:400,
+        category: "deals_today",
+        ratings: 60,
+        description: "Assortment of fresh vegetables (can be customized).",
+    },
+    {
+        id: 26,
+        name:'Seasonal Fruit Basket Fresh from Organo ',
+        image:p26image,
+        new_price: 750.00,
+        old_price:999.99,
+        category: "deals_today",
+        ratings: 63,
+        description: "Assortment of fresh fruits, 10kgs in total. (can be customized)."
+    },
+    {
+        id: 27,
+        name:'36 Eggs',
+        image:p27image,
+        new_price: 290.00,
+        old_price:310.00,
+        category: "bests",
+        ratings: 88,
+        description: "Crate of 36 white eggs. (3 crates of 12 egg each )"
+    },
+    {
+        id: 28,
+        name:'Dairy Product Combo',
+        image:p28image,
+        new_price: 650,
+        old_price:700.00,
+        category: "bests",
+        ratings: 159,
+        description: "Assortment of best dairy products from FARMINGO, includes Paneer, Tofu, Cheese, Milk etc. (can be customized)."
+    },
+    {
+        id: 29,
+        name: 'Sun-Dried Mango Pickle 500g',
+        image: p29image,
+        new_price: 75.00,
+        old_price: 119.99,
+        category: "bests",
+        ratings: 156,
+        description: "Our Sun-Dried Mango Pickle is a perfect blend of tangy, spicy, and aromatic flavors. Made from hand-picked raw mangoes, sun-dried to preserve their natural taste, and mixed with a rich blend of traditional Indian spices, this pickle adds a zesty kick to every meal."
+    },
 ];
 
 export default all_products;

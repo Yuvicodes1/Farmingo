@@ -1,0 +1,61 @@
+:root {
+    /* Main Colors */
+    --sage-green: #A7C957;   /* Soft, modern green */
+    --light-brown: #D2B48C;  /* Earthy and neutral */
+    --off-white: #FAF3E0;    /* Clean and minimal */
+
+    /* Accent Colors */
+    --warm-yellow: #FFC107;  /* Warmth for buttons and highlights */
+    --rust-orange: #D95D39;  /* Vintage, farm-inspired touch */
+
+    /* Text Colors */
+    --text-dark: #4A4A4A;    /* Dark gray for readability */
+    --text-light: #FFFFFF;   /* White for contrast on dark backgrounds */
+
+}
+
+.related{
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: var(--sage-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    height: 60vh;
+}
+
+.related h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.related hr{
+    width: 200px;
+    height: 6px;
+    background: var(--warm-yellow);
+}
+
+.related-item{
+    margin-top:3rem ;
+    display: flex;
+    gap: 2rem;
+}
+
+.related-link {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Ensures it keeps the default text color */
+}
+
+.related-item .item {
+    width: 30rem; /* Adjust as needed */
+    height: 25rem; /* Adjust as needed */
+}
+
+.related-item .item img {
+    width: 100%;
+    height: 70%; /* Fixed height */
+    object-fit: contain; /* Ensures images fit well without stretching */
+    border-radius: 1rem;
+}

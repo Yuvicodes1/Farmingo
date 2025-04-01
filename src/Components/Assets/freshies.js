@@ -5,28 +5,28 @@ import p4_image from './images/products/eggs.jpeg'
 
 let fresh=[
     {
-        id:1,
+        id:28,
         name:'Dairy Product Combo',
         image:p1_image,
         new_price: 650,
         old_price:700.00,
     },
     {
-        id:2,
+        id:25,
         name:'Veggie Basket Combo 5kgs',
         image:p2_image,
         new_price: 350,
         old_price:400,
     },
     {
-        id:3,
+        id:26,
         name:'Seasonal Fruit Basket Fresh from Organo ',
         image:p3_image,
         new_price: 750.00,
         old_price:999.99,
     },
     {
-        id:4,
+        id:27,
         name:'36 Eggs',
         image:p4_image,
         new_price: 290.00,

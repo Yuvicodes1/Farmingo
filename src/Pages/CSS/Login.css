@@ -29,6 +29,8 @@
     padding: 6rem 2rem;
     border-radius: 2rem;
     border: 2px solid var(--sage-green);
+    text-align: center;
+    
 }
 
 .login-container h1{
@@ -36,10 +38,12 @@
     font-weight: 700;
     text-transform: uppercase;
     color: var(--text-dark);
+    text-align: center;
 }
 
 .login-fields{
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 0.75rem;
@@ -47,7 +51,7 @@
 
 .login-fields input{
     height: 3rem;
-    width: 60%;
+    width: 80%;
     padding-left: 1rem;
     border: 2px solid var(--text-dark);
     outline: none;
@@ -62,17 +66,17 @@
 }
 
 .login-container button{
-    width: 64%;
-    height: 2rem;
+    width: 50%;
+    height: 3rem;
     color: var(--text-light);
     background-color: var(--rust-orange);
-    margin-top: 1rem;
+    margin-top:1.5rem;
+    border-radius: 1rem;
     border: none;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-
 }
 
 
