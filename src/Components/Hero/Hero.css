@@ -144,5 +144,91 @@
     transform: scale(1.3);
 }
 
+@media (max-width: 1200px) {
+    .hero-carousel-section {
+        display: none;
+    }
 
+    .hero {
+
+        height: 100vh;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        height: auto;
+    }
+
+    .hero-top {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1.5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-left {
+        padding-left: 0;
+    }
+
+    .hero-left h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero-left p {
+        font-size: 2.2rem;
+    }
+
+    .hero-latest-button {
+        width: 18rem;
+        height: 4.5rem;
+        font-size: 1.3rem;
+    }
+
+    .hero-right {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-left h2 {
+        font-size: 2rem;
+    }
+
+    .hero-left p {
+        font-size: 1.8rem;
+    }
+
+    .hero-latest-button {
+        width: 16rem;
+        height: 4rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 1rem;
+    }
+
+    .hero-left h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-left p {
+        font-size: 1.5rem;
+    }
+
+    .hero-latest-button {
+        width: 14rem;
+        height: 3.5rem;
+        font-size: 1rem;
+    }
+}
 
