@@ -1,3 +1,5 @@
+/* Responsive Design */
+
 :root {
     /* Main Colors */
     --sage-green: #A7C957;   /* Soft, modern green */
@@ -11,16 +13,15 @@
     /* Text Colors */
     --text-dark: #4A4A4A;    /* Dark gray for readability */
     --text-light: #FFFFFF;   /* White for contrast on dark backgrounds */
-
 }
 
 .popular{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        height: 70vh;
-        gap: 0.75rem;
-        background: linear-gradient(180deg, var(--sage-green) , white 65%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    gap: 0.75rem;
+    background: linear-gradient(180deg, var(--sage-green) , white 65%);
 }
 
 .popular h1{
@@ -39,4 +40,104 @@
 .popular-items{
     margin-top: 50px;
     display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+    .item {
+        width: 85%;
+        height: 23rem;
+    }
+    .item img {
+        height: 16rem;
+    }
+    .popular hr {
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .item {
+        width: 90%;
+        height: 22rem;
+    }
+    .item img {
+        height: 15rem;
+    }
+    .popular h1 {
+        font-size: 2.5rem;
+    }
+    .popular hr {
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        width: 100%;
+        height: 20rem;
+    }
+    .item img {
+        height: 14rem;
+    }
+    .popular {
+        height: auto;
+        padding: 2rem 0;
+    }
+    .popular h1 {
+        font-size: 2rem;
+    }
+    .popular hr {
+        width: 30rem;
+    }
+    .popular-items {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .item {
+        width: 100%;
+        height: 19rem;
+    }
+    .item img {
+        height: 13rem;
+    }
+    .popular h1 {
+        font-size: 1.8rem;
+    }
+    .popular hr {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .item {
+        width: 100%;
+        height: 18rem;
+        margin: 10px 0;
+    }
+    .item img {
+        height: 12rem;
+    }
+    .item p {
+        font-size: 0.8rem;
+    }
+    .item-prices {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .item-price-new {
+        font-size: 1rem;
+    }
+    .item-old-price {
+        font-size: 0.8rem;
+    }
+    .popular h1 {
+        font-size: 1.5rem;
+    }
+    .popular hr {
+        width: 20rem;
+    }
 }
