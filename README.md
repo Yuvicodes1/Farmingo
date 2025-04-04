@@ -28,9 +28,16 @@ Our platform is built for **trust**. You can **create an account, track your ord
 - **React.js** – A fast, efficient, and modern UI framework.  
 
 ### **Backend:**   
-- **MySQL** – Keeping track of products, users, and orders efficiently.  
+- **MongoDB** – Keeping track of products, users, and orders efficiently.
+- **ExpressJs and NodeJs** - for working of the backend. 
 
 ---
 
 ## 🌾 "Directly from the farms!"  
 🚜 **Farmin-go! - Delivering farm-fresh goodness to your table!** 🌿
+
+
+
+
+## HOW TO FORK THE REPOSITORY TO RUN FARMINGO 
+
