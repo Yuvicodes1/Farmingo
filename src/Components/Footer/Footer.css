@@ -13,17 +13,18 @@
     --text-light: #FFFFFF;   /* White for contrast on dark backgrounds */
 }
 
-.footer{
+.footer {
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    background: linear-gradient(180deg,var(--off-white),var(--light-brown)70%);
+    background: linear-gradient(180deg, var(--off-white), var(--light-brown) 70%);
 }
 
-.footer-logo{
+/* Footer Logo */
+.footer-logo {
     display: flex;
     align-self: center;
     gap: 1.5rem;
@@ -34,55 +35,80 @@
     border-radius: 50%;
 }
 
-.footer-logo p{
-    color: var(--text-dark);
-    font-size: 3rem;
-    font-weight: 750;
-}
-
-.footer-links{
+/* Footer Links */
+.footer-links {
     display: flex;
     list-style: none;
     gap: 3rem;
-    color: var(--text-dark);
     font-size: 1.1rem;
+    padding: 0;
 }
 
-.footer-links li{
-    cursor: pointer;
+/* Styled Links */
+.footer-links li a {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.2s ease;
 }
 
-.footer-social-icons{
+/* Hover Effect */
+.footer-links li a:hover {
+    color: var(--rust-orange);
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+/* Footer Social Icons */
+.footer-social-icons {
     display: flex;
     gap: 1rem;
 }
 
-.footer-icons-container{
+.footer-icons-container {
     padding: 1rem;
     background: var(--off-white);
     border: 1px solid var(--warm-yellow);
     border-radius: 1rem;
+    transition: all 0.3s ease;
 }
 
-.footer-icons-container img{
+.footer-icons-container img {
     height: 2rem;
     width: auto;
 }
 
-.footer-copyright{
+/* Hover Effect for Social Icons */
+.footer-icons-container:hover {
+    background: var(--warm-yellow);
+    border-color: var(--rust-orange);
+    transform: scale(1.1);
+}
+
+/* Footer Copyright */
+.footer-copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     width: 100%;
-    margin-bottom: 1rem;
     font-size: 1rem;
+    text-align: center;
 }
 
-.footer-copyright hr{
+.footer-copyright hr {
     width: 80%;
     border: none;
     border-radius: 10px;
     height: 4px;
     background: var(--warm-yellow);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
 }

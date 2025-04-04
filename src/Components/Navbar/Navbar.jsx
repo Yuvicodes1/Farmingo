@@ -7,7 +7,13 @@ import { ShopContext } from '../../Contexts/ShopContext';
 
 export const Navbar = () => {
     const [menu, setMenu] = useState("shop");
-    const { getTotalCartItems } = useContext(ShopContext);
+    const { getTotalCartItems, clearCart } = useContext(ShopContext);
+    const user = JSON.parse(localStorage.getItem('user'));
+
+    const handleLoginClick = () => {
+        // Clear cart when going to login page
+        clearCart();
+    };
 
     return (
         <div className="navbar">
@@ -41,9 +47,21 @@ export const Navbar = () => {
 
             {/* Login & Cart Section */}
             <div className="nav-login-cart">
-                <Link to="/Login">
-                    <button>Login / Sign-UP</button>
-                </Link>
+                {user ? (
+                    <div className="user-greeting">
+                        Hi, {user.name.split(' ')[0]}
+                        <button onClick={() => {
+                            localStorage.removeItem('user');
+                            localStorage.removeItem('token');
+                            clearCart();
+                            window.location.href = '/';
+                        }}>Logout</button>
+                    </div>
+                ) : (
+                    <Link to="/Login" onClick={handleLoginClick}>
+                        <button>Login / Sign-Up</button>
+                    </Link>
+                )}
                 <Link to="/Cart">
                     <img src={cart_icon} alt="Cart" />
                 </Link>

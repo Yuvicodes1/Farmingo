@@ -13,6 +13,7 @@ import banner_dt from './Components/Assets/images/Banners/td.png'
 import main_b from './Components/Assets/images/Banners/main.png'
 import AboutUs from './Components/AboutUs/AboutUs';
 import ContactUs from './Components/ContactUs/ContactUs';
+import Checkout from './Components/Checkout/Checkout';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path='/Login' element={<Login/>}/>
         <Route path='/about' element={<AboutUs />} />
         <Route path='/contact' element={<ContactUs />} /> 
+        <Route path="/checkout" element={<Checkout/>} />
       </Routes>
       <Footer/>
       </BrowserRouter>

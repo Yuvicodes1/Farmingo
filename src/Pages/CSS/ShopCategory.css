@@ -66,16 +66,11 @@
 }
 
 .loadmore{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 100px auto;
-    width: 220px;
-    height: 70px;
-    border-radius: 75px;
-    background-color: var(--rust-orange);
-    color: var(--text-light);
-    font-weight: 525;
+    text-align: center;
+    margin: 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--sage-green);
 }
 
 

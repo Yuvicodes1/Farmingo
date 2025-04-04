@@ -2,9 +2,15 @@ import React, { useContext } from 'react';
 import './Cartitems.css';
 import { ShopContext } from '../../Contexts/ShopContext';
 import remove_icon from '../Assets/images/cart_cross_icon.png';
+import { useNavigate } from 'react-router-dom'; // ✅ Import useNavigate
 
 const Cartitems = () => {
     const { all_products = [], cartItems, removeFromCart, clearCart, getCartTotal } = useContext(ShopContext);
+    const navigate = useNavigate(); // ✅ Initialize useNavigate
+
+    const handleCheckout = () => {
+        navigate('/checkout'); // ✅ Navigate to Checkout page
+    };
 
     return (
         <div className='cartitems'>
@@ -36,7 +42,7 @@ const Cartitems = () => {
                 }
                 return null;
             })}
-            
+
             <div className="cartitems-down">
                 <div className="cartitems-total">
                     <h1>Cart Total</h1>
@@ -54,11 +60,11 @@ const Cartitems = () => {
                         <h3>Total</h3>
                         <h3>&#x20B9;{getCartTotal()}</h3>
                     </div>
-                    <button className='checkout'>PROCEED TO CHECKOUT</button>
+                    <button className='checkout' onClick={handleCheckout}>PROCEED TO CHECKOUT</button> {/* ✅ Updated */}
                     <button className='clear-cart' onClick={clearCart}>CLEAR CART</button>
                 </div>
             </div>
-            
+
             <div className="cartitems-promocode">
                 <p>If you have a promocode, enter it here!</p>
                 <div className="cartitems-promobox">
