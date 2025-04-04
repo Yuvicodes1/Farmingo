@@ -11,6 +11,9 @@ import Footer from './Components/Footer/Footer';
 import banner_bs from './Components/Assets/images/Banners/FARMINGO.png'
 import banner_dt from './Components/Assets/images/Banners/td.png'
 import main_b from './Components/Assets/images/Banners/main.png'
+import AboutUs from './Components/AboutUs/AboutUs';
+import ContactUs from './Components/ContactUs/ContactUs';
+
 
 function App() {
   return (
@@ -27,6 +30,8 @@ function App() {
         </Route>
         <Route path='/Cart' element={<Cart/>}/>
         <Route path='/Login' element={<Login/>}/>
+        <Route path='/about' element={<AboutUs />} />
+        <Route path='/contact' element={<ContactUs />} /> 
       </Routes>
       <Footer/>
       </BrowserRouter>

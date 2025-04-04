@@ -1,0 +1,80 @@
+/* Root variables */
+:root {
+    /* Main Colors */
+    --sage-green: #A7C957;
+    --light-brown: #D2B48C;
+    --off-white: #FAF3E0;
+
+    /* Accent Colors */
+    --warm-yellow: #FFC107;
+    --rust-orange: #D95D39;
+
+    /* Text Colors */
+    --text-dark: #4A4A4A;
+    --text-light: #FFFFFF;
+}
+
+/* About Us Section */
+.about-section {
+    min-height: 100vh;
+    background-color: var(--sage-green); /* Sage Green Background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1.5rem;
+}
+
+/* About Us Container */
+.about-container {
+    max-width: 60rem; /* Equivalent to max-w-5xl */
+    width: 100%;
+    background-color: white;
+    border-radius: 1.5rem; /* Equivalent to rounded-2xl */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-xl */
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Heading */
+.about-heading {
+    font-size: 2.5rem; /* Equivalent to text-4xl */
+    font-weight: bold;
+    color: var(--sage-green);
+    text-align: center;
+}
+
+/* Paragraph Styling */
+.about-text {
+    color: var(--text-dark);
+    font-size: 1.125rem; /* Equivalent to text-[1.125rem] */
+    line-height: 1.75;
+}
+
+/* Feature Box */
+.about-features {
+    background-color: var(--light-brown);
+    border-radius: 1rem;
+    padding: 2rem;
+    color: var(--text-light);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Features Heading */
+.features-heading {
+    font-size: 1.75rem; /* Equivalent to text-2xl */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Features List */
+.features-list {
+    list-style-type: disc;
+    padding-left: 1.25rem;
+    font-size: 1.05rem;
+}
+
+.features-list li {
+    margin-bottom: 0.5rem;
+}

@@ -140,6 +140,25 @@
     background: var(--rust-orange);
 }
 
+.clear-cart {
+    background: rgb(255, 94, 94);
+    color: var(--text-light);
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+}
+
+.clear-cart:hover {
+    background: rgb(255, 56, 56);
+    transform: scale(1.04);
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .cartitems-format-main, .cartitems-format {
@@ -188,5 +207,23 @@
     }
     .quantity {
         padding: 0.5rem 1rem;
+    }
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .clear-cart {
+        width: 100%;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .clear-cart {
+        width: 100%;
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
     }
 }

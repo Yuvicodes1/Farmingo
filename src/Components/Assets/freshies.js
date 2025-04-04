@@ -20,7 +20,7 @@ let fresh=[
     },
     {
         id:26,
-        name:'Seasonal Fruit Basket Fresh from Organo ',
+        name:'Seasonal Fruit Basket Fresh from Organo',
         image:p3_image,
         new_price: 750.00,
         old_price:999.99,

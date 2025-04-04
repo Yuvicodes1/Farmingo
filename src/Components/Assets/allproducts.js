@@ -27,7 +27,10 @@ import p26image from './images/products/veggie_basket.jpg'
 import p27image from './images/products/eggs.jpeg'
 import p28image from './images/products/dairy_combo.jpeg'
 import p29image from './images/Popular Products/mango_pickle.jpg'
-
+import p30_image from './images/Popular Products/almond_butter.jpeg';
+import p31_image from './images/products/bio-organic-oil.png';
+import p32_image from './images/Popular Products/sunflower-oil.jpg';
+import p33_image from './images/Popular Products/walnuts.jpg';
 
 
 let all_products = [
@@ -321,6 +324,46 @@ let all_products = [
         ratings: 156,
         description: "Our Sun-Dried Mango Pickle is a perfect blend of tangy, spicy, and aromatic flavors. Made from hand-picked raw mangoes, sun-dried to preserve their natural taste, and mixed with a rich blend of traditional Indian spices, this pickle adds a zesty kick to every meal."
     },
+    {
+        id: 30,
+        name: "Justin's Almond Butter 500gms",
+        image: p30_image,
+        new_price: 255.75,
+        old_price: 360.00,
+        category: "bests",
+        ratings: 205,
+        description: "Delicious and creamy almond butter with no added sugar, perfect for spreading and smoothies."
+    },
+    {
+        id: 31,
+        name: "Pure Cold Pressed Olive Oil 1L",
+        image: p31_image,
+        new_price: 700,
+        old_price: 919.00,
+        category: "deals_today",
+        ratings: 330,
+        description: "High-quality extra virgin olive oil, cold-pressed for the best taste and nutrition."
+    },
+    {
+        id: 32,
+        name: "Sunflower Oil Cold Pressed 500ml",
+        image: p32_image,
+        new_price: 180.0,
+        old_price: 200.0,
+        category: "bests",
+        ratings: 250,
+        description: "Healthy and heart-friendly sunflower oil, extracted using the cold-pressed method."
+    },
+    {
+        id: 33,
+        name: "Kashmiri Walnut Kernel 500g",
+        image: p33_image,
+        new_price: 400,
+        old_price: 520.00,
+        category: "bests",
+        ratings: 189,
+        description: "Premium quality Kashmiri walnut kernels, rich in omega-3 and antioxidants."
+    }
 ];
 
 export default all_products;

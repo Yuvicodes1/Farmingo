@@ -1,0 +1,95 @@
+:root {
+    /* Main Colors */
+    --sage-green: #A7C957;
+    --light-brown: #D2B48C;
+    --off-white: #FAF3E0;
+
+    /* Accent Colors */
+    --warm-yellow: #FFC107;
+    --rust-orange: #D95D39;
+
+    /* Text Colors */
+    --text-dark: #4A4A4A;
+    --text-light: #FFFFFF;
+}
+
+/* General Layout */
+.contact-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--off-white);
+    padding: 2rem;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Header */
+.contact-form h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--sage-green);
+    margin-bottom: 1.5rem;
+}
+
+/* Labels */
+.contact-form label {
+    font-weight: 600;
+    color: var(--text-dark);
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* Required Asterisk */
+.contact-form label span {
+    color: var(--rust-orange);
+}
+
+/* Input Fields */
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--light-brown);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: var(--text-dark);
+    background-color: #fff;
+}
+
+.contact-form select {
+    appearance: none;
+}
+
+/* Textarea */
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Submit Button */
+.contact-form button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: var(--warm-yellow);
+    color: var(--text-light);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: var(--rust-orange);
+}
