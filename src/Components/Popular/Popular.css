@@ -67,7 +67,7 @@
         font-size: 2.5rem;
     }
     .popular hr {
-        width: 35rem;
+        width: 3rem;
     }
 }
 
@@ -87,7 +87,7 @@
         font-size: 2rem;
     }
     .popular hr {
-        width: 30rem;
+        width: 3rem;
     }
     .popular-items {
         flex-direction: column;
@@ -107,7 +107,7 @@
         font-size: 1.8rem;
     }
     .popular hr {
-        width: 25rem;
+        width: 2rem;
     }
 }
 
@@ -138,6 +138,6 @@
         font-size: 1.5rem;
     }
     .popular hr {
-        width: 20rem;
+        width: 2rem;
     }
 }

@@ -114,3 +114,44 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
 }
+
+@media screen and (max-width: 1380px){
+    .productdisplay{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .productdisplay{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .productdisplay{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .productdisplay-img-list{
+        display:none;
+    }
+
+    .productdisplay-right{
+        margin:0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .productdisplay-main-img{
+        width: 100%;
+        height: 20rem;
+        object-fit: contain;
+    }
+}

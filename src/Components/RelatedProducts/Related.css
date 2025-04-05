@@ -59,3 +59,41 @@
     object-fit: contain; /* Ensures images fit well without stretching */
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 1380px){
+    .related{
+        height: 110vh;
+        padding :1rem;
+    }
+    .related-item{
+        margin-top:1rem ;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .related-item .item {
+        width: 20rem; /* Adjust as needed */
+        height: 25rem; /* Adjust as needed */
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .related{
+        height: 110vh;
+        padding :1rem;
+    }
+    .related-item{
+        margin-top:1rem ;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .related-item .item {
+        width: 20rem; /* Adjust as needed */
+        height: 25rem; /* Adjust as needed */
+    }
+}
+

@@ -195,15 +195,28 @@
     object-fit: cover;
 }
 
+@media screen and (max-width: 1391px) {
+    .offers {
+        height: auto;
+        padding: 2rem 2rem;
+        width: 80%;
+    }
+    .offers-left img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
     .offers {
         flex-direction: column;
         height: auto;
-        padding: 4rem 4rem;
+        padding: 2rem 2rem;
         width: 80%;
     }
     .offers-left img {
-        width: 100%;
+        width: 50%;
         height: auto;
     }
 }
@@ -211,10 +224,10 @@
 @media screen and (max-width: 768px) {
     .offers {
         padding: 3rem;
-        width: 90%;
+        width: 80%;
     }
     .offers-right h1 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     .offers-right p {
         font-size: 1.5rem;
@@ -224,10 +237,10 @@
 @media screen and (max-width: 480px) {
     .offers {
         padding: 2rem;
-        width: 95%;
+        width: 80%;
     }
     .offers-right h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .offers-right p {
         font-size: 1.25rem;

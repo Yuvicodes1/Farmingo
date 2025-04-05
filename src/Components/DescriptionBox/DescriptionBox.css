@@ -26,3 +26,9 @@
     padding: 3rem;
     font-weight: 500;
 }
+
+@media screen and (max-width: 1024px){
+    .descriptionbox{
+        margin: 1rem 2rem;
+    }
+}
