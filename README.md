@@ -46,12 +46,13 @@ Our platform is built for **trust**. You can **create an account, track your ord
 - Check and install all the dependencies.
 - On terminal write npm start to run the frontend.
 
+
   FOR THE BACKEND
 - Run following commands on terminal
-  -npm init
-  -npm install express
-  -npm install mongoose
-  -npm install multer
+  -npm init,
+  -npm install express,
+  -npm install mongoose,
+  -npm install multer,
   -npm install cors
 - Paste the index.js code
 - Install any leftover dependencies
